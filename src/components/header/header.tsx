@@ -58,7 +58,7 @@ export const Navbar: React.FC = () => {
             <Link
               key={item.href}
               href={item.href}
-              className="text-gray-900 md:text-base text-lg hover:font-semibold transition-all duration-50 ease-in-out"
+              className="text-gray-900 md:text-base text-lg hover:font-semibold hover:text-light transition-all duration-50 ease-in-out"
             >
               {item.label}
             </Link>
@@ -68,12 +68,12 @@ export const Navbar: React.FC = () => {
         {/* Right Section: Buttons */}
         <div className="hidden md:flex items-center space-x-3">
           <Link href="/careers">
-            <span className="text-base px-3 py-1 border-2 border-blue-700 text-blue-700 rounded-lg hover:bg-blue-700 hover:text-white hover:font-semibold transition-all duration-500 ease-in-out">
+            <span className="text-base px-3 py-1 border-2 border-medium text-light rounded-lg hover:bg-medium hover:text-white hover:font-semibold transition-all duration-500 ease-in-out">
               Careers
             </span>
           </Link>
-          <Link href="#contact-us">
-            <span className="text-base px-3 py-1 border-2 border-blue-700 bg-blue-700 text-white rounded-lg hover:bg-blue-800 hover:font-semibold transition-all duration-500 ease-in-out">
+          <Link href="#contact-us" >
+            <span className="text-base px-3 py-1 border-2 border-medium bg-medium text-white rounded-lg hover:bg-medium-light  transition-all duration-500 ease-in-out">
               Contact Us
             </span>
           </Link>
@@ -94,8 +94,8 @@ export const Navbar: React.FC = () => {
       <div
         ref={menuRef}
         className={`fixed top-0 left-0 w-full bg-[#fff] shadow-md transition-transform transform ${
-          isOpen ? 'translate-y-[4.55rem]' : '-translate-y-full '
-        } ease-in-out duration-300 `}
+          isOpen ? 'translate-y-[3.5rem]' : '-translate-y-full '
+        } ease-in-out duration-500 `}
       >
 
 

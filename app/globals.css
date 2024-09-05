@@ -2,3 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+html{
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+/* Hide scrollbar for Webkit browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer utilities {
+  .bg-light{
+    background-color: #e6e7ff;
+  }
+  .bg-dark{
+    background-color: #02077d;
+  }
+  .text-light{
+    color: #8286fd;
+  }
+/* text-dark */
+  .text-dark{
+    color: #0309af;
+  }
+  .bg-medium-light{
+    background-color: #5056fc;
+  }
+  .bg-medium{
+    background-color: #1e26fb;
+  }
+  .border-medium{
+    border-color: #1e26fb;
+  }
+}

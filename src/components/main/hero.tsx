@@ -5,15 +5,15 @@ export const Hero = () => {
 
 
     <section className="overflow-hidden" id="home">
-    <div className=" w-full lg:max-w-screen-xl flex items-center mx-auto flex-col lg:flex-row pt-20 md:pt-20 pb-20 px-4  sm:px-8 md:px-6 xl:px-0 grid grid-cols-12 gap-4">
+    <div className=" w-full lg:max-w-screen-xl flex items-center mx-auto flex-col lg:flex-row pt-20 lg:pt-20 md:pt-20 pb-2 px-4  sm:px-8 md:px-6 xl:px-0 grid grid-cols-12 gap-4">
       <div className="flex flex-col px-3  lg:flex-grow w-full items-start text-left md:mb-0 col-span-12 sm:col-span-6 lg:col-span-4 sm:w-[40rem] xl:w-[100rem]  md:mr-20">
-        <div className="text-black text-[2rem] sm:text-[2.7rem] sm:leading-[3.4rem] text-left font-bold text-gray-900 ">
+        <div className="text-black text-[2rem] sm:text-[2.7rem] sm:leading-[3.4rem] text-left font-bold  ">
           Accept payments{" "}
         </div>
-        <div className="text-black text-[2rem] sm:text-[2.7rem] sm:leading-[3.4rem] text-left font-bold text-gray-900">
+        <div className="text-black text-[2rem] sm:text-[2.7rem] sm:leading-[3.4rem] text-left font-bold ">
           Directly to your{" "}
         </div>
-        <div className="text-black text-[2rem] sm:text-[2.7rem] sm:leading-[3.4rem] text-left font-bold text-gray-900">
+        <div className="text-black text-[2rem] sm:text-[2.7rem] sm:leading-[3.4rem] text-left font-bold ">
           Account at{" "}
         </div>
         <div className="text-[2rem] sm:text-[2.7rem] sm:leading-[3.4rem] text-left font-bold">

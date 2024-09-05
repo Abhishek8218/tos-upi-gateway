@@ -22,26 +22,26 @@ export const HowItWork: React.FC<HowItWorkProps> = ({ steps }) => {
   }, [steps.length]);
 
   return (
-    <section className="w-full bg-[url('/bg-pattern.svg')] bg-no-repeat bg-opacity-40">
+    <section id='how-it-works' className="w-full bg-[url('/bg-pattern.svg')] bg-no-repeat bg-opacity-40 lg:pb-10">
       <div className="text-gray-900 body-font">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-8 md:px-4 xl:px-0">
           <div className="flex flex-col justify-center pt-0 sm:pt-24 md:pt-20 items-center">
-            <h5 className="mb-3 font-bold text-left text-base text-primary">
+            <h5 className="mb-3 font-bold text-left text-base text-dark">
               How it works
             </h5>
-            <div className="mb-0 font-bold text-center text-3xl sm:text-4xl sm:leading-[3.2rem]">
+            <div className="text-gray-800 mb-0 font-bold text-center text-3xl sm:text-4xl sm:leading-[3.2rem]">
               How does UPIGateway Dynamic QR work?
             </div>
           </div>
         </div>
       </div>
 
-      <div className="max-w-screen-xl flex items-center mx-auto w-full flex-col lg:flex-row pt-16 sm:pt-20 pb-24 px-10 sm:px-8 md:px-10 xl:px-0  ">
+      <div className="max-w-screen-xl flex items-center mx-auto w-full flex-col lg:flex-row pt-16 sm:pt-20 pb-1 px-10 sm:px-8 md:px-10 xl:px-0  ">
         <div className="flex pt-0 mb-16 w-full items-center text-left md:mb-0 grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="image-container flex flex-start flex-col col-span-1 relative shadow-md">
             <div className="flex">
               <img
-                className="z-50 "
+                className="z-10 "
                 alt={`step-${steps[currentStep].stepNumber}`}
                 src={steps[currentStep].imageUrl}
               />
@@ -55,11 +55,11 @@ export const HowItWork: React.FC<HowItWorkProps> = ({ steps }) => {
               >
                 <div
                   className={`flex flex-col items-center justify-center w-16 h-16 rounded-full  col-span-2 sm:col-span-1    ${
-                    index === currentStep ? "bg-blue-300" : "bg-blue-50"
+                    index === currentStep ? "bg-[#b4b7fe]" : "bg-[#e6e7ff]"
                   }`}
                 >
                   <div
-                    className={`w-8 h-8 items-center justify-center w-1/2 flex rounded-full bg-blue-500`}
+                    className={`w-8 h-8 items-center justify-center w-1/2 flex rounded-full bg-[#5056fc]`}
                   >
                     <h2 className="text-lg font-normal text-white">
                       {step.stepNumber}
@@ -67,8 +67,8 @@ export const HowItWork: React.FC<HowItWorkProps> = ({ steps }) => {
                   </div>
                 </div>
                 <div className="flex flex-col col-span-6 sm:col-span-5">
-                  <h2 className={`mb-2 text-lg  text-black ${
-                    index === currentStep ? "font-bold" : "font-normal"
+                  <h2 className={`mb-2 text-lg   ${
+                    index === currentStep ? "font-bold text-light" : "font-normal text-black"
                   }`}>
                     {step.description}
                   </h2>

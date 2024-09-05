@@ -2,10 +2,11 @@ import { NavItem } from "../types";
 
 
 export const navbarData: NavItem[] = [
-    { href: '/#services', label: 'Home' },
-    { href: '/#about-us', label: 'About Us' },
-    { href: '/#technologies', label: 'Technologies' },
-    { href: '/#faq', label: 'FAQs' },
-    {href:"/privacy-policy", label:"Privacy Policy"},
+    { href: '/', label: 'Home' },
+    { href: '/#how-it-works', label: 'How It Works' },
+    { href: '/#contact', label: 'Contact Us' },
+    { href: '/#faq', label: 'FAQ' },
+    { href: '/#privacy', label: 'Privacy-Policy' },
+
 
   ];
