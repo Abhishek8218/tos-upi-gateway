@@ -67,14 +67,14 @@ export const Navbar: React.FC = () => {
 
         {/* Right Section: Buttons */}
         <div className="hidden md:flex items-center space-x-3">
-          <Link href="/careers">
+          <Link href="/">
             <span className="text-base px-3 py-1 border-2 border-medium text-light rounded-lg hover:bg-medium hover:text-white hover:font-semibold transition-all duration-500 ease-in-out">
-              Careers
+              Login
             </span>
           </Link>
-          <Link href="#contact-us" >
+          <Link href="/" >
             <span className="text-base px-3 py-1 border-2 border-medium bg-medium text-white rounded-lg hover:bg-medium-light  transition-all duration-500 ease-in-out">
-              Contact Us
+              Create Account
             </span>
           </Link>
         </div>
