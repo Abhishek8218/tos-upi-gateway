@@ -13,10 +13,10 @@ export const Scenarios = () => {
           >
             <div className="flex flex-col justify-center pt-10 sm:pt-24 md:pt-20 items-center">
               <h5 className="mb-3 font-bold text-left text-base text-dark">
-                UPIGateway&apos;s Use Cases
+              TOSGateway&apos;s Use Cases
               </h5>
               <div className=" text-gray-800 mb-0 font-bold text-center text-3xl sm:text-4xl sm:leading-[3.2rem]">
-                Unlock the potential of UPIGateway&apos;s Dynamic QR in different
+                Unlock the potential of TOSGateway&apos;s Dynamic QR in different
                 scenarios
               </div>
             </div>

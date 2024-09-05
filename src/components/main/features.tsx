@@ -33,10 +33,10 @@ export const Features: React.FC = () => {
                   <div className="w-full md:max-w-screen-xl mx-auto px-0 sm:px-8 md:px-4 xl:px-0">
           <div className="flex flex-col justify-center  pt-0 sm:pt-10 md:pt-1 items-center">
             <h5 className="text-light mb-3 font-bold text-left text-base text-primary">
-            UPIGateway&apos; Features
+            TOSGateway&apos;s Features
             </h5>
             <div className=" text-gray-800 mb-0 font-bold text-center text-2xl sm:text-4xl sm:leading-[3.2rem]">
-            Advantages of integrating UPIGateway&apos;s
+            Advantages of integrating  TOSGateway&apos;s
             </div>
             <div className="text-gray-800  mb-0 font-bold text-center text-2xl sm:text-4xl sm:leading-[3.2rem]">
             Dynamic QR code service

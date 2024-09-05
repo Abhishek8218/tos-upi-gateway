@@ -33,9 +33,9 @@ export const Footer = () => {
               <li id="contact">
                 <a
                   className=" font-medium text-left text-md text-primary hover:text-light hover:underline"
-                  href="mailto:support@upigateway.com"
+                  href="mailto:support@TOSGateway.com"
                 >
-                  support@upigateway.com
+                  support@TOSGateway.com
                 </a>
               </li>
             </ul>

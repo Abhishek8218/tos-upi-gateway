@@ -30,7 +30,7 @@ export const HowItWork: React.FC<HowItWorkProps> = ({ steps }) => {
               How it works
             </h5>
             <div className="text-gray-800 mb-0 font-bold text-center text-3xl sm:text-4xl sm:leading-[3.2rem]">
-              How does UPIGateway Dynamic QR work?
+              How does TOSGateway Dynamic QR work?
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ export const Hero = () => {
           Revolutionize Your Payment Process with Dynamic QR Codes Service.
         </p>
         <p className="leading-relaxed text-gray-700 mt-2 mb-5 text-xs sm:text-xs text-left text-balance">
-          *UPIGateway provides Dynamic QR Generating service. UPIGateway does not
+          * TOSGateway provides Dynamic QR Generating service.TOSGateway does not
           provide payment gateway service.
         </p>
         <a
