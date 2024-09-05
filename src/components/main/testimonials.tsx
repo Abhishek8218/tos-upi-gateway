@@ -30,7 +30,7 @@ export const Testimonials = () => {
             <li key={index}>
               <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8 ">
                 <li>
-                  <figure className="relative rounded-2xl bg-white p-6 pb-2 shadow-xl shadow-slate-900/10  lg:min-h-[18.5rem] max-h-[18.5rem] ">
+                  <figure className="relative rounded-2xl bg-white p-6 pb-2 shadow-sm hover:scale-105 shadow-slate-900/10  lg:min-h-[18.5rem] max-h-[18.5rem]  transition-all ease-in-out duration-300">
                     <svg
                       aria-hidden="true"
                       width="105"

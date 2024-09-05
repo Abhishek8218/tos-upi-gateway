@@ -43,7 +43,7 @@ export const Features: React.FC = () => {
             </div>
           </div>
         </div>
-          <div className="grid gap-10 pt-20 w-full sm:w-4/5 md:w-3/4 lg:w-full grid-cols-1 lg:grid-cols-2">
+          <div className="grid gap-10 pt-20 w-full sm:w-full md:w-3/4 lg:w-full grid-cols-1 lg:grid-cols-2">
             {features.map((features, index) => (
               <div
                 key={index}

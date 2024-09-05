@@ -30,7 +30,7 @@ export const Hero = () => {
         </p>
         <a
           className="items-center mb-4 sm:mb-6 md:mb-8 font-bold text-center rounded text-base text-primary hover:text-primary_dark focus:outline-none "
-          href="https://merchant.upigateway.com/auth/login"
+          href="https://tos.systems"
         >
           <u>Start Accepting Payments &gt;</u>
         </a>

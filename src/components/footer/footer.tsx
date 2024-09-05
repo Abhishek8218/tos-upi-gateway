@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className="px-4  pt-10 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-2xl md:px-4 lg:px-4 bg-gray-50">
       <div className="flex flex-col md:flex-row justify-between items-center md:px-50 pb-10">
-        <div className="w-full md:max-w-md md:pl-4 ">
+        <div className="w-full  md:max-w-72 lg:max-w-sm md:pl-4 ">
         <Link href="/">
             <img
               src="/LogoNav.png"
@@ -14,17 +14,17 @@ export const Footer = () => {
               className="h-8 md:h-14 w-auto cursor-pointer  -ml-2"
             />
           </Link>
-          <div className="mt-4 max-w-sm">
+          <div className="mt-4 md:max-w-72 lg:max-w-sm ">
             <p className="text-sm text-gray-800">
             Accept payments from your customers through our easy-to-use Dynamic QR code service, with 0% transaction fees.
             </p>
             
           </div>
         </div>
-        <div className="w-full md:max-w-md mt-10 md:mt-0">
-          <div className="w-full ">
+        <div className="w-full md:max-w-52  lg:max-w-fit mt-10  md:mt-0">
+          <div className="w-full">
             <h1 className="mb-3 text-base font-medium text-black">Contact Us</h1>
-            <ul className="mb-10 space-y-1 list-none">
+            <ul className="space-y-1 list-none">
               <li>
                 <p className="text-base text-gray-500 transition duration-500 ease-in-out transform rounded-sm ring-offset-current ring-offset-2 mr- max-w-80">
                   Feelfree to get in touch with us via send us a message
